@@ -1,16 +1,16 @@
-# reactive_counter_sn
+# Reactive StateNotifier Example
 
-A new Flutter project.
+In this application, the amount of increase of the counter changes according to the app bar background color(example if app bar background color is black, counter increments 1, if app bar background color is red, counter increments 10 etc.)
+the background of the page changes according to the counter value
 
-## Getting Started
+long story short 3 states react to each other
 
-This project is a starting point for a Flutter application.
+Packages used:
+provider
+state_notifier
+flutter_state_notifier
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# How does it look
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![app look](https://i.im.ge/2022/08/02/FAU0v6.reactive-counter-sn-20220802133348.gif)
